@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(90deg, rgba(20,16,75,0.5551470588235294) 0%, rgba(75,75,213,0.4318977591036415) 35%, rgba(4, 63, 75, 0.272) 100%), url(asset/bg_3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.input-container{
+    width: auto;
+    height: auto;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 80px;
+    height: 80px;
+    background-color: transparent;
+    color:white ; 
+    padding:10px;
+    padding-left: 50px;
+    border: solid 2px #7f5539;
+    border-radius: 90px;
+    outline: none;
+    font-size: 30px;
+    transition: 0.6s;
+}
+
+input::-webkit-search-cancel-button{
+    display: none;
+}
+
+input:focus{
+    width: 500px;
+}
+
+.input-container:hover input{
+    width: 500px;
+    border-color: white;
+    color: white; 
+}
+
+a:hover{
+    color: #582f0e;
+    background-color: white;
+}
+button:hover{
+    color: #582f0e;
+    background-color: white;
+}
+
+a {
+    width: 70px;
+    height: 70px;
+    background-color:#e7b391;
+    color:white;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .6s;
+    font-size: 30px;
+    outline: none;
+}
+
+button{
+     width: 70px; 
+    height: 70px; 
+     background-color:#7f5539;
+    color:white; 
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .6s;
+    font-size: 30px;
+    outline: none;
+
+}
+
+
+.title{
+    color: white;
+    position: absolute;
+    top: 30vh;
+    font-size: 50px;
+}
+
+.legende{
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    bottom: 30px;
+    text-align: center;
+}
+
+.chat{
+    color: white;
+    height: 30px;
+    position:absolute;
+    bottom: 50px;
+    right: 45px;
+    width: 50px;
+    height: 50px;
+    background-color: #582f0e;
+    border-radius: 7px;
+}
+
+.title-front{
+    color: white;
+    position: absolute;
+    font-size: 30px;
+    top:5vh
+}
+
+.container{
+    display: flex;
+}
+
+.container list_1{
+    background-color: white;
+}
